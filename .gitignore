@@ -1,4 +1,5 @@
-
+node_modules
+mongo-notes.md
 .DS_Store
 # Logs
 logs
