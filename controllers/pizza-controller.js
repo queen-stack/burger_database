@@ -19,7 +19,6 @@ const pizzaController = {
     },
 
     // get one pizza by id
-    //  rather than accessing entire req, destructure just params from it
     // -- updated to get comments from single pizza
     getPizzaById({ params }, res) {
         Pizza.findOne({ _id: params.id })
