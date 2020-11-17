@@ -1,0 +1,25 @@
+{
+  "name": "pizza_hunt",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Pizza Hunt</h1>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/queen-stack/pizza_hunt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/queen-stack/pizza_hunt/issues"
+  },
+  "homepage": "https://github.com/queen-stack/pizza_hunt#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "mongoose": "^5.10.15"
+  }
+}
