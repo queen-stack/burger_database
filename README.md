@@ -19,7 +19,7 @@
   
 💻 Below are screenshots of the application:
   
-![homepage: pizzahunt](./public/images/homepage.png)
+![homepage: pizzahunt](./public/assets/)
 ![conversation: pizzahunt](./public/images/conversation.png)
 
 
@@ -51,7 +51,7 @@
 * `$ npm i`
 * For custom installations, start with initializing npm
 * $ npm init -y or $ npm install
-* Manaully update the package.json to "main": "server.js", in place of index.js
+* Manually update the package.json to "main": "server.js", in place of index.js
 * Create a .gitignore file in the root and add node_modules to this file
 * If you require: re-add the dependencies, run $ npm install
 * Install npm express, refer to for more info https://www.npmjs.com/package/express
@@ -75,7 +75,7 @@
 None at this time
 
 ## Contributing
-:octocat: [Jenifer Queen profile](https://queen-stack.github.io/Challeng2/)
+:octocat: [Jenifer Queen profile](https://queen-stack.github.io/profile/)
 
 
 ## Questions
