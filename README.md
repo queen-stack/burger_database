@@ -13,13 +13,9 @@
    
 ## Description
 
-🔍 A mysql database and CMS-style chat site community built using Model View Controller (MVC) paradigm. 
-  <br>Built using MySQL2, Express, Sequelize, Handlebars and dotenv. <br>
-   As communities scale, guarantee your users a place to belong by empowering them to start conversations that matter. <br>
-   Build a group channel to collaborate. Then grow your community with quality interactions in every conversation at once.<br>
-   Users who are logged in will be able to create and comment on posts through a UI.
-
-**[Deployed Application](https://limitless-shelf-64509.herokuapp.com/)**
+🔍 Users can create, read, update, and delete data for a pizza in the database
+  
+**[Deployed Application](https://herokuapp.com/)**
   
 💻 Below are screenshots of the application:
   
