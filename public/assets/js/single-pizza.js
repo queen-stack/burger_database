@@ -14,6 +14,7 @@ let pizzaId;
 function getPizza() {
     // get id of pizza
     const searchParams = new URLSearchParams(document.location.search.substring(1));
+    console.log(searchParams);
     const pizzaId = searchParams.get('id');
 
     // get pizzaInfo
@@ -140,24 +141,6 @@ function handleNewCommentSubmit(event) {
 };
 
 
-function handleNewReplySubmit(event) {
-    event.preventDefault();
-
-    if (!event.target.matches('.reply-form')) {
-        return false;
-    }
-
-    const commentId = event.target.getAttribute('data-commentid');
-
-    const writtenBy = event.target.querySelector('[name=reply-name]').value;
-    const replyBody = event.target.querySelector('[name=reply]').value;
-
-    if (!replyBody || !writtenBy) {
-        return false;
-    }
-
-    const formData = { writtenBy, replyBody };
-}
 
 // PUT requests to new replies
 function handleNewReplySubmit(event) {
@@ -211,4 +194,4 @@ $commentSection.addEventListener('submit', handleNewReplySubmit);
 
 
 // on page load get pizza info 
-getPizza();
+//getPizza();

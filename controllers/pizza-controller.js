@@ -21,6 +21,7 @@ const pizzaController = {
     // get one pizza by id
     // -- updated to get comments from single pizza
     getPizzaById({ params }, res) {
+        console.log(params);
         Pizza.findOne({ _id: params.id })
             .populate({
                 path: 'comments',

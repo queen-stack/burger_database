@@ -5,6 +5,7 @@ const getPizzaList = () => {
     fetch('/api/pizzas')
         .then(response => response.json())
         .then(pizzaListArr => {
+          console.log(pizzaListArr);
             pizzaListArr.forEach(printPizza);
         })
         .catch(err => {
