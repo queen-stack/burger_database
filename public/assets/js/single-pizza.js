@@ -194,4 +194,4 @@ $commentSection.addEventListener('submit', handleNewReplySubmit);
 
 
 // on page load get pizza info 
-//getPizza();
+getPizza();
